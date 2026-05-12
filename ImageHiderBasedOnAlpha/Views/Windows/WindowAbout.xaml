@@ -1,0 +1,23 @@
+﻿<Window x:Class="ImageHiderBasedOnAlpha.Views.Windows.WindowAbout"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImageHiderBasedOnAlpha.Views.Windows"
+        mc:Ignorable="d"
+        Title="关于 IHBA" Height="300" Width="400" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel Margin="10">
+            <TextBlock Text="基于Alpha的图片隐藏器" FontWeight="Bold" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBlock Text="Image Hider Based on Alpha" FontWeight="Bold" FontSize="12" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,5,0,0"/>
+
+            <!--CREDITS-->
+            <TextBlock Margin="0,10,0,0">
+            作者 - <Hyperlink NavigateUri="https://github.com/isHuaMouRen" Click="Hyperlink_Click">isHuaMouRen</Hyperlink><LineBreak/>
+            项目储存库 - <Hyperlink NavigateUri="https://github.com/isHuaMouRen/image-hider-based-on-alpha" Click="Hyperlink_Click">在Github上查看</Hyperlink>
+            </TextBlock>
+        </StackPanel>
+
+        <Button Content="确定" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Padding="10,2,10,2" Click="Button_Click"/>
+    </Grid>
+</Window>

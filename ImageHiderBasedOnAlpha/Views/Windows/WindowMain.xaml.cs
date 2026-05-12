@@ -21,5 +21,8 @@ namespace ImageHiderBasedOnAlpha.Views.Windows
         {
             InitializeComponent();
         }
+
+        // 关于
+        private void Button_Click(object sender, RoutedEventArgs e) => new WindowAbout().ShowDialog();
     }
 }

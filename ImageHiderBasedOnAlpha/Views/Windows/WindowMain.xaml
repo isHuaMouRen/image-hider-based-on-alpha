@@ -12,6 +12,6 @@
         <TextBlock Text="Image Hider Based on Alpha" FontWeight="Bold" FontSize="12" HorizontalAlignment="Center" Margin="10,40,10,10" VerticalAlignment="Top"/>
         
         <!--ABOUT-->
-        <Button Content="关于" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="10" Padding="10,2,10,2"/>
+        <Button Content="关于" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="10" Padding="10,2,10,2" Click="Button_Click"/>
     </Grid>
 </Window>
